@@ -1,0 +1,23 @@
+Project\todoBundle\Entity\Task:
+    type: entity
+    table: null
+    repositoryClass: Project\todoBundle\Entity\TaskRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        titre:
+            type: string
+            length: '50'
+            column: Titre
+        description:
+            type: string
+            length: '50'
+            column: Description
+        dateExpiration:
+            type: datetime
+            column: DateExpiration
+    lifecycleCallbacks: {  }

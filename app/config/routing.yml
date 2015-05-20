@@ -1,0 +1,7 @@
+projecttodo:
+    resource: "@ProjecttodoBundle/Resources/config/routing.yml"
+    prefix:   /
+    
+ProjecttodoBundle_task:
+        resource: "@ProjecttodoBundle/Resources/config/routing/task.yml"
+        prefix:   /task
